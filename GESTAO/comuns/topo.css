@@ -1,0 +1,51 @@
+body {
+ font-family: Calibri, Arial, Helvetica, sans-serif;
+ font-size: 11px; 
+ text-transform: none;
+ text-decoration: none;
+	color: rgb(136,136,136);
+ margin: 0px;
+ padding: 0px;
+ background-image: url(../imagens/layout/fd-topo.png);
+ background-repeat: repeat-x;
+}
+.nome {
+ font-size: 12px;
+} 
+
+#topo {
+ position: relative;
+ width: 960px;
+ height: 90px;
+ margin: auto;
+}
+#topo a {
+	color: rgb(136,136,136);
+ text-transform: uppercase;
+ text-decoration: none;
+}
+#topo a:hover {
+	color: rgb(0,0,0);
+}
+
+#logo {
+ position: absolute;
+ top: 0px;
+ left: 20px;
+}
+
+#texto { 
+ font-family: Arial, Helvetica, sans-serif; 
+ font-size: 24px;
+ font-weight: bold; 
+ color: rgb(0,84,158);
+ position: absolute;
+ top: 30px;
+ left: 300px;
+}
+#sessao {
+ margin: 24px 0 0 0; 
+ width: 440px; 
+ float: right; 
+ text-align: right; 
+} 

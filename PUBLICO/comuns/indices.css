@@ -1,0 +1,30 @@
+.indice {
+ font-size: 13px;
+ text-align: left;
+}
+
+#indices {
+ height: 26px;
+ padding: 3px 8px 6px 8px;
+ margin-bottom: 20px;
+ border-radius: 2px;
+ box-shadow: 0 0 5px 2px rgba(80,130,200,.5) inset;
+}
+#indice {
+ padding: 3px 10px 1px 5px;
+ margin: 0 2px 0 0;
+}
+#indice_actual {
+ font-weight: bold;
+ font-size: 14px;
+ padding: 3px 10px 1px 5px;
+ margin: 0 2px 0 0;
+}
+
+#indices2 {
+ height: 26px;
+ padding: 3px 8px 6px 8px;
+/* margin-bottom: 20px; */
+ border-radius: 2px;
+ box-shadow: 0 0 5px 2px rgba(80,130,200,.5) inset;
+}

@@ -1,0 +1,59 @@
+#menu {
+ width: 90px;
+ font-size: 12px;
+ height: 90px;
+ color: rgb(0,51,102);
+ text-transform: uppercase;
+}
+#menu:hover { 
+ font-weight: bold;
+ font-size: 13px; 
+}
+
+#menu a {
+ color: rgb(0,51,102);
+ text-transform: uppercase;
+}
+#menu a:hover {
+ color: rgb(110,0,0);
+}
+#menu a:hover img { 
+ opacity: 1; 
+ filter: alpha (opacity=100);
+}
+
+#item1 {
+ width: 90px;
+ padding: 10px 10px 4px 10px;
+ border-bottom: 1px dashed rgb(179,209,224);
+ background: url(../imagens/layout-IE/fd-m-item1.png);
+}
+#item2 {
+ display: none;
+ font-size: 12px;
+ font-weight: normal; 
+ width: 220px;
+	top: 0;
+	margin-left: 90px;
+	position: relative;
+ height: 0; 
+}
+#menu:hover #item2 {
+ display: block; 
+}
+
+#subitem {
+ line-height: 30px;
+ padding: 10px;
+ border-bottom: 1px dashed rgb(159,172,178);
+ background: rgb(228,235,239);
+}
+
+.activo { 
+ top: 0px;
+}
+.activo #item1 { 
+ font-size: 20px; 
+ font-weight: bold;
+ color: rgb(0,51,102);
+}

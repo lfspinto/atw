@@ -1,0 +1,17 @@
+body {
+ font-family: Calibri, Arial, Helvetica, sans-serif;
+ font-size: 11px; 
+ text-transform: none;
+ text-decoration: none;
+	color: rgb(136,136,136);
+ margin: 0px;
+ padding: 0px;
+}
+
+#topo {
+ position: relative;
+ width: 100%;
+ max-width: 960px;
+ height: 90px;
+ margin: auto;
+}

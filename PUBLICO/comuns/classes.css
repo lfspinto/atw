@@ -1,0 +1,64 @@
+*, *:before, *:after { -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box }
+body {
+ font-family: Candara, Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ line-height: 20px;
+ text-transform: none;
+ text-decoration: none;
+	color: rgb(40,30,0);
+ margin: 0px;
+ padding: 0px;
+	background-color: rgb(255,246,240);
+ background-attachment: fixed;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+a { 
+ text-transform: none;
+ text-decoration: none;
+ color: rgb(0,84,158);
+}
+a:hover {
+ font-weight: bold;
+}
+a img {
+ border: none;
+}
+a:hover img {
+ opacity: .80; 
+ filter: alpha (opacity=80);
+}
+
+.pequeno {
+ font-size: 12px;
+}
+
+.formulario { 
+ font-family: Candara, Arial, Helvetica, sans-serif;
+ font-size: 14px; 
+ text-align: left; 
+ padding: 5px;
+ border: 1px solid rgb(234,166,71);
+}
+.formulario:focus {
+ background-color: rgb(240,240,240);
+}
+
+
+.azul {
+ color: rgb(50,100,160);
+}
+.vermelho {
+ color: rgb(220,30,50);
+}
+.laranja { 
+ color: rgb(240,140,0);
+}
+.verde { 
+ color: rgb(40,160,0);
+}
+
+.sublinha { 
+ padding-bottom: 1px;
+ border-bottom: 2px solid rgb(240,140,0);
+}
